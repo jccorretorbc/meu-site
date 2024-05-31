@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Vendas Pessoais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            border: 2px solid #1e90ff;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-details {
+            padding: 10px;
+            background-color: white;
+        }
+        .product-details h3 {
+            color: #1e90ff;
+        }
+        .product-details a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        .product-details a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja Pessoal de [Seu Nome]</h1>
+        <p>Venda de produtos físicos e digitais</p>
+    </header>
+    <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container" id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="product">
+            <img src="url_da_imagem_do_produto_1.jpg" alt="Produto 1">
+            <div class="product-details">
+                <h3>Produto 1</h3>
+                <p>Descrição do produto 1. <a href="link_afiliado_produto_1">Comprar</a></p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="url_da_imagem_do_produto_2.jpg" alt="Produto 2">
+            <div class="product-details">
+                <h3>Produto 2</h3>
+                <p>Descrição do produto 2. <a href="link_afiliado_produto_2">Comprar</a></p>
+            </div>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </div>
+    <footer id="contato">
+        <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+        <p>Contato: seuemail@dominio.com</p>
+    </footer>
+</body>
+</html>
